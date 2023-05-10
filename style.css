@@ -1,6 +1,5 @@
 body{
     font-family: sans-serif;
-    background: #00ccff;
 }
 @keyframes animate {
     0%{
@@ -14,7 +13,6 @@ body{
         border-radius: 50%;
     }
 }
-
 .background {
     position: fixed;
     width: 100vw;
@@ -37,10 +35,6 @@ body{
     animation: animate 19s linear infinite;
     
 }
-
-
-
-
 .background li:nth-child(0) {
     left: 3%;
     width: 153px;
@@ -112,7 +106,7 @@ body{
     animation-delay: 22s;
 }
 .inbox {
-    max-width: 400px;
+    max-width: 330px;
     margin: 50px auto;
     background: white;
     border-radius: 5px;
